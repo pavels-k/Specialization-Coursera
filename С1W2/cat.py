@@ -41,6 +41,6 @@ dist_cos.sort(key=lambda touple:touple[1])
 
 print(dist_cos)
 
-f = open('result.txt', 'w')
+f = open('submission-1.txt', 'w')
 f.write(str(dist_cos[0][0])+' '+str(dist_cos[1][0]).strip('\n'))
 print()
