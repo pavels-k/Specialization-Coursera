@@ -12,7 +12,6 @@ res = minimize(f, 3, bounds=[(1, 30)])
 # method='nelder-mead', options={'xatol': 1e-8, 'disp': True})
 
 
-
 res = minimize(f, 2, bounds=[(1, 30)], method='BFGS')
 print(f(res.x))
 

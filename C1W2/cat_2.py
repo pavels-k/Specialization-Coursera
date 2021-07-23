@@ -2,7 +2,7 @@ import re
 import numpy as np
 from scipy.spatial import distance
 
-with open('sentences.txt','r') as file_obj:
+with open('sentences.txt', 'r') as file_obj:
     sentences = file_obj.readlines()
 
 for i in range(len(sentences)):

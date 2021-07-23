@@ -7,4 +7,4 @@ res = optimize.differential_evolution(f, bounds = [(1,30)])
 print(round(f(res.x), 2))
 
 print(res.nfev) # количество вычислений значения функции 
-print(res.nit) # количество итераций
+print(res.nit)  # количество итераций

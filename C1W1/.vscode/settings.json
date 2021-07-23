@@ -1,9 +1,0 @@
-{
-    "python.pythonPath": "C:\\Users\\Павел\\AppData\\Local\\Programs\\Python\\Python37\\python.exe",
-    "python.jediEnabled": true,
-    "python.languageServer": "Jedi",
-    "editor.acceptSuggestionOnEnter": "off",
-    "python.linting.pylintEnabled": false,
-    "python.linting.flake8Enabled": true,
-    "python.linting.enabled": true // importantly
-}

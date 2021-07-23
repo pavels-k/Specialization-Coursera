@@ -3,8 +3,9 @@ from sympy.plotting import plot
 import numpy as np
 
 
-
 x = symbols('x')
+
+
 def f(x):
     return x**2 + 2*x+1
 
