@@ -34,7 +34,7 @@ for index, n in enumerate(n_value):
         r = chi2.rvs(df, size=n)
         N = np.mean(r)
         dlist[index].append(N)
-print(dlist[0])
+#print(dlist[0])
 
 mu = df
 sigma = np.sqrt(2*df/5)
